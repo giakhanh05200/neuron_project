@@ -15,6 +15,7 @@ void show_content(void){
     fclose(file); 
 }
 
+//create file
 void create_file(void){
     file = fopen(filename, "a+");
     fclose(file);
@@ -48,6 +49,7 @@ void append_file(void){
         fclose(file);
     }
 }
+//delete file by using w 
 void delete_file(void){
     file = fopen(filename, "w");
     printf("My file is empty now!\n");
