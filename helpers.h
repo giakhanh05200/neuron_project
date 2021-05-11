@@ -13,6 +13,7 @@
 #define CWHT  "\x1B[37m"
 
 double dot(double *v, double *u, uint32_t n);
+void request(void);
 
 #endif
 

@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "sigmoid.h": "c",
-        "helpers.h": "c"
+        "helpers.h": "c",
+        "stdio.h": "c",
+        "string.h": "c"
     }
 }
